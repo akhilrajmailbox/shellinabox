@@ -1,5 +1,5 @@
 FROM akhilrajmailbox/ldap-client:latest
-MAINTAINER Akhil Raj <akhil@vivasa.in>
+MAINTAINER Akhil Raj <akhilrajmailbox@gmail.com>
 
 RUN apt-get update && apt-get install -y shellinabox
 ADD start.sh /root/start.sh
